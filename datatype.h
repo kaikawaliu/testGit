@@ -3,7 +3,7 @@
 
 #include <QObject>
 
-#define zoomrate 1.25
+#define zoomrate 1.5
 
 enum LandmarkType{
     LoadPort = 1,
