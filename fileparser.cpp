@@ -10,7 +10,7 @@ FileParser::FileParser(QObject *parent) : QObject(parent)
 
 bool FileParser::load_file()
 {
-    QFile tFile("Factory0");
+    QFile tFile("Factory8");
     if (!tFile.open(QIODevice::ReadOnly | QIODevice::Text))
     {
         qFatal("Cannot Open File To Read");
